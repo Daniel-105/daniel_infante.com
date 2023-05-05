@@ -93,7 +93,7 @@ header .logo span {
 }
 
 .intro .parent .about .description {
-  text-align: center;
+  /* text-align: center; */
   margin: 15px;
 }
 
