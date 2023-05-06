@@ -9,7 +9,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 body {
@@ -42,7 +42,6 @@ header .logo span {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  margin-bottom: 70px;
 }
 
 .intro .parent {
@@ -125,8 +124,8 @@ header .logo span {
 }
 
 .mySkills-section {
-  height: 100vh;
-  margin-top: 70px;
+  height: 60vh;
+  margin-top: 0px;
   /* background-color: red; */
   display: flex;
   justify-content: center;
@@ -154,8 +153,8 @@ header .logo span {
 }
 
 .mySkills-section .function-div .my-skills .my-skills-buttons .skill-button {
-  margin: 5px 2px;
-  padding: 5px 8px;
+  margin: 5px 1px;
+  padding: 5px 6px;
   border-radius: 5px;
   border: var(--green) solid 2px;
   color: var(--white);
@@ -207,4 +206,42 @@ header .logo span {
 
 .skill-container h2 {
   padding: 5px;
+}
+
+.my-interests-section {
+  display: flex;
+  justify-content: center;
+}
+
+.my-interests-section .function-div .function {
+  align-self: flex-start;
+}
+
+.my-interests-section .function-div .function span {
+  color: var(--green);
+}
+
+.my-interests-section .function-div .my-interests {
+  width: 90%;
+}
+
+.my-interests .interest {
+  background-color: var(--light-blue);
+  margin: 40px 0px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-interests .interest img {
+  width: 150px;
+  height: 150px;
+  /* forced-color-adjust: #4ed043; */
+}
+
+.my-interests .interest h2 {
+  font-weight: 700;
+  padding-top: 10px;
+  /* background-color: yellow; */
 }
