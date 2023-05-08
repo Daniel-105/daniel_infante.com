@@ -317,7 +317,7 @@ header .logo span {
 }
 @media (min-width: 1024px) {
   .my-interests .interest {
-    margin: 0px;
+    margin: 0px 10px;
     padding: 5px 15px;
     border-radius: 5px;
     /* background-color: rgb(61, 13, 13); */
@@ -353,35 +353,64 @@ header .logo span {
   color: var(--green);
 }
 
-.portfolio-section .function-div .project-div {
+@media (min-width: 1024px) {
+  .portfolio-section .function-div .wrapper-projects {
+    /* background-color: rgb(61, 13, 13); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+.portfolio-section .function-div .wrapper-projects .project-div {
   background-color: var(--light-blue);
   border-radius: 5px;
   margin: 25px 0px;
   /* padding: 20px; */
   width: 95%;
 }
+@media (min-width: 1024px) {
+  .portfolio-section .function-div .wrapper-projects .project-div {
+    width: 45%;
+  }
+}
 
-.portfolio-section .function-div .project-div video {
+.portfolio-section .function-div .wrapper-projects .project-div video {
   width: 100%;
   border-radius: 5px;
 }
 
-.portfolio-section .function-div .project-div .project-text {
+.portfolio-section .function-div .wrapper-projects .project-div .project-text {
   /* background-color: red; */
   margin: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.portfolio-section .function-div .project-div .project-text h2 {
+.portfolio-section
+  .function-div
+  .wrapper-projects
+  .project-div
+  .project-text
+  h2 {
   font-size: 1.2em;
 }
 
-.portfolio-section .function-div .project-div .project-text p {
+.portfolio-section
+  .function-div
+  .wrapper-projects
+  .project-div
+  .project-text
+  p {
   margin: 5px;
 }
 
-.portfolio-section .function-div .project-div .project-text .project-buttons {
+.portfolio-section
+  .function-div
+  .wrapper-projects
+  .project-div
+  .project-text
+  .project-buttons {
   margin-top: 5px;
   display: flex;
   justify-content: space-around;
@@ -389,6 +418,7 @@ header .logo span {
 
 .portfolio-section
   .function-div
+  .wrapper-projects
   .project-div
   .project-text
   .project-buttons
