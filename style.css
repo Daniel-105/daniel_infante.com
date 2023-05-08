@@ -99,6 +99,7 @@ header .logo span {
 @media (min-width: 780px) {
   .intro .parent .about {
     flex-direction: row-reverse;
+    justify-content: center;
   }
 }
 
@@ -108,10 +109,23 @@ header .logo span {
   margin-top: 10px;
   border-radius: 5px;
 }
+@media (min-width: 1024px) {
+  .intro .parent .about img {
+    /* background-color: red; */
+    width: 300px;
+    height: 300px;
+  }
+}
 
 .intro .parent .about .description {
   /* text-align: center; */
   margin: 15px;
+}
+@media (min-width: 1024px) {
+  .intro .parent .about .description {
+    /* background-color: red; */
+    width: 50%;
+  }
 }
 
 .intro .parent .about .description p span {
@@ -430,6 +444,15 @@ header .logo span {
   background-color: var(--blue);
   cursor: pointer;
 }
+.portfolio-section
+  .function-div
+  .wrapper-projects
+  .project-div
+  .project-text
+  .project-buttons
+  button:hover {
+  background-color: var(--green);
+}
 
 .contact-section {
   height: 40vh;
@@ -442,15 +465,42 @@ header .logo span {
 
 .contact-section .contact-status {
   width: 90%;
-  /* background-color: #4ed043; */
+}
+@media (min-width: 1024px) {
+  .contact-section .contact-status {
+    /* background-color: #4ed043; */
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-section .contact-status .text-div {
+    width: 50%;
+    padding: 20px;
+  }
 }
 
 .contact-section .contact-status .email-address-div {
   margin-top: 10px;
 }
+@media (min-width: 1024px) {
+  .contact-section .contact-status .email-address-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* background-color: red; */
+    width: 50%;
+  }
+}
 
 .contact-section .contact-status .email-address-div .email-address h2 {
   font-size: 1.3em;
+}
+@media (min-width: 1024px) {
+  .contact-section .contact-status .email-address-div .email-address h2 {
+    text-align: right;
+  }
 }
 
 .contact-section .contact-status .email-address-div .email-address h3 {
