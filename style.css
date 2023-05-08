@@ -19,6 +19,12 @@ body {
   background: var(--blue);
   color: var(--white);
 }
+@media (min-width: 780px) {
+  body {
+    background-color: rgb(61, 48, 48);
+    width: 700px;
+  }
+}
 
 header {
   margin-top: 0.5em;
@@ -84,6 +90,12 @@ header .logo span {
   align-items: center;
 }
 
+@media (min-width: 780px) {
+  .intro .parent .about {
+    flex-direction: row-reverse;
+  }
+}
+
 .intro .parent .about img {
   width: 210px;
   height: 210px;
@@ -131,6 +143,15 @@ header .logo span {
   justify-content: center;
 }
 
+@media (min-width: 780px) {
+  .mySkills-section .my-skills {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .function-div {
   width: 90%;
   display: flex;
@@ -151,6 +172,13 @@ header .logo span {
   /* background-color: aliceblue; */
   margin: 10px 0px;
 }
+@media (min-width: 780px) {
+  .mySkills-section .function-div .my-skills .my-skills-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
 
 .mySkills-section .function-div .my-skills .my-skills-buttons .skill-button {
   margin: 5px 1px;
@@ -160,6 +188,11 @@ header .logo span {
   color: var(--white);
   background-color: var(--blue);
   cursor: pointer;
+}
+@media (min-width: 780px) {
+  .mySkills-section .function-div .my-skills .my-skills-buttons .skill-button {
+    padding: 10px 20px;
+  }
 }
 
 .mySkills-section
@@ -176,12 +209,24 @@ header .logo span {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 780px) {
+  .mySkills-section .function-div .my-skills .programming-skills-container {
+    width: 90%;
+    align-items: center;
+  }
+}
 
 .mySkills-section .function-div .my-skills .others-skills-container {
   /* background-color: green; */
   display: flex;
   flex-direction: column;
   display: none;
+}
+@media (min-width: 780px) {
+  .mySkills-section .function-div .my-skills .others-skills-container {
+    width: 90%;
+    align-items: center;
+  }
 }
 
 .mySkills-section .function-div .my-skills .tools-skills-container {
@@ -190,6 +235,12 @@ header .logo span {
   flex-direction: column;
   display: none;
 }
+@media (min-width: 780px) {
+  .mySkills-section .function-div .my-skills .tools-skills-container {
+    width: 90%;
+    align-items: center;
+  }
+}
 
 .mySkills-section .function-div .my-skills .idioms-skills-container {
   /* background-color: rgb(4, 3, 86); */
@@ -197,11 +248,25 @@ header .logo span {
   flex-direction: column;
   display: none;
 }
+@media (min-width: 780px) {
+  .mySkills-section .function-div .my-skills .idioms-skills-container {
+    width: 90%;
+    align-items: center;
+  }
+}
 
 .skill-container {
   background-color: var(--light-blue);
+  /* width: 100%; */
   margin: 10px;
   padding: 10px;
+  border-radius: 5px;
+}
+@media (min-width: 780px) {
+  .skill-container {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 .skill-container h2 {
