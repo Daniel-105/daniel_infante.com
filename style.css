@@ -260,10 +260,14 @@ header .logo span {
   align-self: flex-start;
 }
 
+.portfolio-section .function-div .function span {
+  color: var(--green);
+}
+
 .portfolio-section .function-div .project-div {
   background-color: var(--light-blue);
   border-radius: 5px;
-  margin-top: 15px;
+  margin: 25px 0px;
   /* padding: 20px; */
 }
 
