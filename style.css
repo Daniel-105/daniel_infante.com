@@ -248,7 +248,7 @@ header .logo span {
 }
 
 .portfolio-section {
-  height: 80vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -310,4 +310,57 @@ header .logo span {
   color: var(--white);
   background-color: var(--blue);
   cursor: pointer;
+}
+
+.contact-section {
+  height: 40vh;
+  /* background-color: #4ed043; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contact-section .contact-status {
+  width: 90%;
+  /* background-color: #4ed043; */
+}
+
+.contact-section .contact-status .email-address-div {
+  margin-top: 10px;
+}
+
+.contact-section .contact-status .email-address-div .email-address h2 {
+  font-size: 1.3em;
+}
+
+.contact-section .contact-status .email-address-div .email-address h3 {
+  font-weight: 400;
+}
+
+.contact-section .return-contact {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  /* background-color: red; */
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.contact-section .return-contact h2 {
+  margin-right: 5px;
+}
+
+.contact-section .return-contact button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: var(--green) solid 2px;
+  color: var(--white);
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.contact-section .function {
+  align-self: flex-start;
+  color: var(--green);
 }
