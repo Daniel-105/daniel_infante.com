@@ -211,6 +211,7 @@ header .logo span {
 .my-interests-section {
   display: flex;
   justify-content: center;
+  /* background-color: blue; */
 }
 
 .my-interests-section .function-div .function {
@@ -244,4 +245,64 @@ header .logo span {
   font-weight: 700;
   padding-top: 10px;
   /* background-color: yellow; */
+}
+
+.portfolio-section {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  /* background-color: red; */
+}
+
+.portfolio-section .function-div .function {
+  align-self: flex-start;
+}
+
+.portfolio-section .function-div .project-div {
+  background-color: var(--light-blue);
+  border-radius: 5px;
+  margin-top: 15px;
+  /* padding: 20px; */
+}
+
+.portfolio-section .function-div .project-div video {
+  height: 150px;
+  border-radius: 5px;
+}
+
+.portfolio-section .function-div .project-div .project-text {
+  /* background-color: red; */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-section .function-div .project-div .project-text h2 {
+  font-size: 1.2em;
+}
+
+.portfolio-section .function-div .project-div .project-text p {
+  margin: 5px;
+}
+
+.portfolio-section .function-div .project-div .project-text .project-buttons {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio-section
+  .function-div
+  .project-div
+  .project-text
+  .project-buttons
+  button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: var(--green) solid 2px;
+  color: var(--white);
+  background-color: var(--blue);
+  cursor: pointer;
 }
