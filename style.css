@@ -21,7 +21,7 @@ body {
 }
 @media (min-width: 780px) {
   body {
-    background-color: rgb(61, 48, 48);
+    /* background-color: rgb(61, 48, 48); */
     width: 700px;
   }
 }
@@ -291,6 +291,14 @@ header .logo span {
 .my-interests-section .function-div .my-interests {
   width: 90%;
 }
+/* @media (min-width: 780px) {
+  .my-interests-section .function-div .my-interests {
+    display: flex;
+    justify-content: space-between;
+   background-color: red; 
+    width: 100%;
+  }
+} */
 
 .my-interests .interest {
   background-color: var(--light-blue);
@@ -300,6 +308,13 @@ header .logo span {
   flex-direction: column;
   align-items: center;
 }
+/* @media (min-width: 780px) {
+  .my-interests .interest {
+    margin: 0px;
+    padding: 0 5px;
+    background-color: white;
+  }
+} */
 
 .my-interests .interest img {
   width: 150px;
