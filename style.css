@@ -437,21 +437,23 @@ header .logo span {
   .project-div
   .project-text
   .project-buttons
-  button {
+  a {
   padding: 5px 20px;
   border-radius: 5px;
   border: var(--green) solid 2px;
   color: var(--white);
   background-color: var(--blue);
   cursor: pointer;
+  text-decoration: none;
 }
+
 .portfolio-section
   .function-div
   .wrapper-projects
   .project-div
   .project-text
   .project-buttons
-  button:hover {
+  a:hover {
   background-color: var(--green);
 }
 
