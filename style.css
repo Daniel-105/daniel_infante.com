@@ -523,13 +523,14 @@ header .logo span {
   margin-right: 5px;
 }
 
-.contact-section .return-contact button {
+.contact-section .return-contact a {
   padding: 10px 20px;
   border-radius: 5px;
   border: var(--green) solid 2px;
   color: var(--white);
   background-color: var(--green);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .contact-section .function {
